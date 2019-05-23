@@ -1,12 +1,13 @@
+import apiKeys from './apiKeys';
+
 // Foursquare API Info
-const clientId = 'FOURSQURE_CLIENT_ID';
-const clientSecret = 'FOURSQUARE_CLIENT_SECRET';
+const clientId = apiKeys.FOURSQUARE_CLIENT_ID;
+const clientSecret = apiKeys.FOURSQUARE_CLIENT_SECRET;
 const url = 'https://api.foursquare.com/v2/venues/explore?near=';
 
 // APIXU Info
-const apiKey = 'APIXU_API_KEY';
+const apiKey = apiKeys.APIXU_API_KEY;
 const forecastUrl = 'https://api.apixu.com/v1/forecast.json?key=';
-
 // Page Elements
 const $input = $('#city');
 const $submit = $('#button');
